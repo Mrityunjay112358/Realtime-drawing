@@ -1,0 +1,43 @@
+.note{
+    font-size: 15px;
+    color:black;
+}
+
+.heading{
+    font-size: 23px;
+    margin:0px;
+    box-shadow: 5px 5px 40px greenyellow;
+    width:100%;
+}
+
+.copy_right{
+    width:100%;
+    line-height: 30px;
+    text-align: center;
+    color:white;
+    background-color: grey;
+    bottom:0;
+    position: fixed;
+}
+
+canvas{
+border-radius: 30px;
+animation-name: styling;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes styling {
+    from{
+        box-shadow: 5px 5px 50px goldenrod;
+        border:5px solid indianred;
+
+    }
+    to{
+        box-shadow: 10px 10px 100px plum;
+        border:15px ridge powderblue;
+
+    }
+}
+
